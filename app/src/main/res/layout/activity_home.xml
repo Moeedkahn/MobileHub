@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#010b13">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:background="#000000">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="MOVIE HUB"
+        android:textColor="#990000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:paddingTop="20dp"
+        android:layout_marginLeft="80dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#A9A9A9"
+        android:text="Logout"
+        android:textSize="20sp"
+        android:id="@+id/logout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold"
+        android:padding="3dp"/>
+</LinearLayout>
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:background="#D3D3D3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:queryHint="Search">
+
+        <requestFocus />
+    </SearchView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#990000"
+        android:text="Live Stream"
+        android:textSize="20sp"
+        android:id="@+id/livestream"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:padding="3dp"/>
+
+    <GridView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/HomeList"
+        android:numColumns="2"
+        android:columnWidth="60dp"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:stretchMode="columnWidth"
+        android:background="#010b13"
+      />
+
+</LinearLayout>

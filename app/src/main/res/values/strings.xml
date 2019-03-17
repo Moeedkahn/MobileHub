@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MobileHub</string>
+    <string name="hello">Hello World, MyAndroidAppActivity!</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+
+    <string name="my_text"><u>New User? Sign Up</u></string>
+
+    <string name="btn_display">Display</string>
+    <string name="facebook_app_id">859333284407234</string>
+    <string name="facebook_login_protocol_scheme">fb859333284407234</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "415895048605",
+    "firebase_url": "https://moviehub-cb3ee.firebaseio.com",
+    "project_id": "moviehub-cb3ee",
+    "storage_bucket": "moviehub-cb3ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415895048605:android:3e4ed72263d0ab24",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.mobilehub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415895048605-oo2o935k724ofomifajdu4s1m7vrti58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiww6sI54KDSMPqcbuk4gdHEcaZn7Zx_s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
